@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.topbar{
+	width:1000px;
+	height: 30px;
+	background-color: #f7f6f7 ;
+	display:block;
+	text-align: right;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	width: 1000px;
+	
+}
+
+.header h1 a{
+    background-image: url(../hw1/hw1_images/logo.png);
+    width: 220px;
+    height: 55px;
+    display: block;
+	text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+
+  }
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	width: 80px;
+	text-align: center;
+}
+
+.menu li a{
+	color:#08cc9c;
+	display: block;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+
+}
+
+.banner{
+	width:1000px;
+	height: 300px;
+	background-image: url(../hw1/hw1_images/banner.png);
+
+}
+
+.banner h1{
+	background-color: black(0.5);
+	width:1000px;
+	height: 100px;
+	color: white;
+	font-size: 40px;
+	line-height: 1.5;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-left: 30px;
+
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding-bottom:50px;
+}
+
+.course{
+    display: flex;
+    justify-content: space-around;
+	padding:20px;
+}
+
+.course-item{
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0px 5px 5px rgb(222, 222, 222);
+}
+
+
+.course-item h2{ 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.course-item p{
+	text-align: justify;
+	line-height: 20px;
+	padding:10px;
+}
+
+.course-item img{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+	width:900px;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 50px;
+
+}
+.table h2{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 20px;
+  }
+  
+  .price th, .price td{
+	width: 1000px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	padding: 10px;
+	text-align: left;
+  }
+  
+  .price th{
+	background: #f7f6f7;
+  }
+  
+  .price td span{
+	color: #08cc9c;
+  }
+
+  .form-container{
+	width: 1000px;
+	height: 350px;
+	background: linear-gradient(#00644b,#038f7a);
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom: 20px;
+	
+  }
+  
+  .form-container h2{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+	padding: 20px; 
+  }
+  
+  .form{
+	display: flex;
+	justify-content: space-between;
+	
+  }
+  
+  .form textarea{
+	width:460px;
+	height: 220px;
+	margin:10px;
+  
+  }
+  
+  .input-right{
+	padding-bottom: 20px;
+	color: white;
+	margin-right: 10px;
+  }
+  
+  .input-right input{
+	width: 460px;
+	height: 20px;
+  }
+  
+  .submit-button{
+	text-align: right;
+	margin-right: 10px;
+  }
+  
+  .submit-button input{
+   width: 70px;
+   height: 35px;
+   color: white;
+   background-color: #08cc9c;
+   border-radius: 5px; 
+  }
+  
+  .footer{
+	  width: 999px;
+	  height: 50px;
+	  display:flex;
+	  justify-content: space-between;
+	  padding-bottom: 20px;
+  }
+
+  .footer img{
+	  width: 180px;
+	  height: 35px;
+  }
+
+.footer{
+	line-height: 1.5;
+}
+  .footer span{
+	  color:#e12d80;
+  }
